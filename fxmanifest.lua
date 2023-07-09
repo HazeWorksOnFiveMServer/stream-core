@@ -3,7 +3,8 @@ use_experimental_fxv2_oal 'yes'
 lua54 'yes'
 game 'gta5'
 
-author '𝗛𝗔𝗭𝗘.𝗘𝗫𝗘#8854'
+author 'HAZE.EXE'
+discord '47haze#0'
 description 'This is a Multistreaming Resource , that means that this Resource streams Vehicles, Peds, Audio, Effects and more'
 version '2.0'
 
