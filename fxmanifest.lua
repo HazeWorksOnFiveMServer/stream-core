@@ -5,7 +5,7 @@ game 'gta5'
 
 author '𝗛𝗔𝗭𝗘.𝗘𝗫𝗘#8854'
 description 'This is a Multistreaming Resource , that means that this Resource streams Vehicles, Peds, Audio, Effects and more'
-version '4.2.0'
+version '2.0'
 
 files {
 
