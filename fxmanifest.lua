@@ -3,10 +3,9 @@ use_experimental_fxv2_oal 'yes'
 lua54 'yes'
 game 'gta5'
 
-author 'HAZE.EXE'
-discord '47haze#0'
+author '𝗛𝗔𝗭𝗘.𝗘𝗫𝗘#8854'
 description 'This is a Multistreaming Resource , that means that this Resource streams Vehicles, Peds, Audio, Effects and more'
-version '2.0'
+version '4.2.0'
 
 files {
 
@@ -44,7 +43,8 @@ files {
 
 }
 
-client_scripts {'names.lua', 'carmap.lua'}
+client_scripts {'scripts/client/**/c.lua'}
+server_scripts {'scripts/server/**/s.lua'}
 
 -- Vehicles
 -- Single
@@ -684,6 +684,29 @@ data_file 'AUDIO_WAVEPACK' 'audio/sfx/dlc_bmws702'
 -- Creator  Legacy_DMC
 
 
+
+-- Lamborghini Countach V12 Sound
+data_file "AUDIO_SYNTHDATA" "audioconfig/lg97lamctch_amp.dat"
+data_file "AUDIO_GAMEDATA" "audioconfig/lg97lamctch_game.dat"
+data_file "AUDIO_SOUNDDATA" "audioconfig/lg97lamctch_sounds.dat"
+data_file "AUDIO_WAVEPACK" "sfx/dlc_lg97lamctch"
+-- Mercedes AMG CLK GTR V12 Sound
+data_file "AUDIO_SYNTHDATA" "audioconfig/lg187clkgtr_amp.dat"
+data_file "AUDIO_GAMEDATA" "audioconfig/lg187clkgtr_game.dat"
+data_file "AUDIO_SOUNDDATA" "audioconfig/lg187clkgtr_sounds.dat"
+data_file "AUDIO_WAVEPACK" "sfx/dlc_lg187clkgtr"
+
+-- Mazda 20B 3 Rotor Sound
+data_file "AUDIO_SYNTHDATA" "audioconfig/lg188maz20b_amp.dat"
+data_file "AUDIO_GAMEDATA" "audioconfig/lg188maz20b_game.dat"
+data_file "AUDIO_SOUNDDATA" "audioconfig/lg188maz20b_sounds.dat"
+data_file "AUDIO_WAVEPACK" "sfx/dlc_lg188maz20b"
+
+-- Porsche 911 GT3RS 4.0L F6 Sound
+data_file "AUDIO_SYNTHDATA" "audioconfig/lg157por911_amp.dat"
+data_file "AUDIO_GAMEDATA" "audioconfig/lg157por911_game.dat"
+data_file "AUDIO_SOUNDDATA" "audioconfig/lg157por911_sounds.dat"
+data_file "AUDIO_WAVEPACK" "sfx/dlc_lg157por911"
 
 -- Chrysler 300C SRT-8 V8 Sound
 data_file "AUDIO_SYNTHDATA" "audio/audioconfig/lg124srt8thndrc_amp.dat"
